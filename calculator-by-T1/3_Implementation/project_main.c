@@ -1,112 +1,70 @@
+
+#include<stdio.h>
+#include<stdlib.h>
 #include <calculator_operations.h>
-
-/* Status of the operation requested */
-#define VALID   (1)
-#define INVALID (0)
-
-/* Calculator operation requested by user*/
-unsigned int calculator_operation = 0;
-
-/* Operands on which calculation is performed */
-int calculator_operand1 = 0;
-int calculator_operand2 = 0;
-
-/* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, EXIT };
-
-/* Display the menu of operations supported */
-void calculator_menu(void);
-/* Verifies the requested operations validity */
-int valid_operation(int operation);
-
-
-/* Start of the application */
-int main(int argc, char *argv[])
+int main()
 {
-    printf("\n****Calculator****\n");
-    while(1)
-    {
-        calculator_menu();
-    }
-}
+int highlevel;
+int choice2;
+int choice3;
+int choice4;
+printf("What do you want to do?\n1>Arithmetic\n2>Conversion\n3>Algebric\n4>Inbuild\n");
 
-void calculator_menu(void)
+scanf("%d", &highlevel);
+
+switch(highlevel)
 {
-    printf("\nAvailable Operations\n");
-    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Exit");
-    printf("\n\tEnter your choice\n");
-   
-     //__fpurge(stdin);
-    scanf("%d", &calculator_operation);
-
-    if(EXIT == calculator_operation)
+    case 1:
     {
-        printf("\nThank you. Exiting the Application\n");
-        exit(0);
-    }
-
-    if(INVALID != valid_operation(calculator_operation))
+    printf("What do you want to do?\n Addition subtraction multlipication");
+    scanf("%d", &choice2);
+    switch(choice2)
     {
-        printf("\n\tEnter your Numbers with space between them\n");
-       // __fpurge(stdin);
-        scanf("%d %d", &calculator_operand1, &calculator_operand2);
-    }
-    else
-    {
-        printf("\n\t---Wrong choice---\nEnter to continue\n");
-       // __fpurge(stdin);
-        getchar();
-        return;
-        
-    }
-    switch(calculator_operation)
-    {
-        case ADD:
-            printf("\n\t%d + %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            calculator_operand2,
-            add(calculator_operand1, calculator_operand2));
+        case 1:
+        {   
+             int operand1, operand2;
+            printf("Enter first number ");
+            scanf("%d", &operand1);
+            printf("Enter second number ");
+            scanf("%d", &operand2);
+            printf("Sum is: %d", add(operand1,operand2));
+            break;
+        }
+        case 2:
+        {
+            int operand1, operand2;
+             printf("Enter first number ");
+            scanf("%d", &operand1);
+            printf("Enter second number ");
+            scanf("%d", &operand2);
+            printf("Difference is: %d",substract(operand1,operand2));
+            break;
+        }
+        case 3:
+        {
+            double operand1, operand2;
+            printf("Enter first number ");
+            scanf("%lf", &operand2);
+            printf("Enter second number ");
+            scanf("%lf", &operand2);
+            printf("Product is: %.3lf",multiply(operand1,operand2));
+            break;
+        }
+        case 4:
+        {
+            double operand1, operand2;
+            printf("Enter first number:");
+            scanf("%lf", &operand1);
+            printf("Enter second number:");
+            scanf("%lf", &operand2);
+            if(operand2>0)
+            {
+            printf("Result is: %.3lf",divide(operand1,operand2));
+            }
+            else
+            {
+                printf("Cannot Divide by zero");
+            }
             
-           // __fpurge(stdin);
-            getchar();
             break;
-        case SUBTRACT:
-            printf("\n\t%d - %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            calculator_operand2,
-            subtract(calculator_operand1, calculator_operand2));
-            
-           // __fpurge(stdin);
-            getchar();
-            break;
-        case MULTIPLY:
-            printf("\n\t%d * %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            calculator_operand2,
-            multiply(calculator_operand1, calculator_operand2));
-            
-            //__fpurge(stdin);
-            getchar();
-            break;
-        case DIVIDE:
-            printf("\n\t%d / %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            calculator_operand2,
-            divide(calculator_operand1, calculator_operand2));
-            
-           // __fpurge(stdin);
-            getchar();
-            break;
-        case 5:
-            exit(0);
-            break;
-        default:
-            printf("\n\t---It should never come here---\n");
-    }
-}
-
-int valid_operation(int operation)
-{
-    /* Check if the operation is a valid operation */
-    return ((ADD <= operation) && (EXIT >= operation)) ? VALID: INVALID;
-}
+    case 2
