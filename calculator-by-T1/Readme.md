@@ -27,7 +27,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 1. Merging code overcame by creating separate branch and merging to master.
 2. Make all command overcame by making separate header file, separate .c file and source file.
-3. ...
+3. Conversion of angular coordinate to cartesion coordinate in which value of pi goes out of bound by defining the constant value of pi. 
 4. ...
 
 ## Learning Resources
