@@ -12,6 +12,11 @@ void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
 void test_modulous(void);
+void test_square(void);
+void test_cube(void);
+void test_squareroot(void);
+void test_cuberoot(void);
+void test_factorial(void);
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -30,6 +35,11 @@ int main()
   RUN_TEST(test_subtract);
   RUN_TEST(test_multiply);
   RUN_TEST(test_divide);
+  RUN_TEST(test_square);
+  RUN_TEST(test_cube);
+  RUN_TEST(test_squareroot);
+  RUN_TEST(test_cuberoot);
+  RUN_TEST(test_factorial);
 
   /* Close the Unity Test Framework */
   return UNITY_END();
@@ -65,7 +75,47 @@ void test_divide(void) {
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(3, division(2, 2));
 }
-  voice test_modulous(void){
+  void test_modulous(void) {
     TEST_ASSERT_EQUAL(1, modulous(1, 1));
   }
+  void test_square(void) {
+
+    TEST_ASSERT_EQUAL(4, square(16));
+    TEST_ASSERT_EQUAL(121,square(-11));
+    TEST_ASSERT_EQUAL(0,square(0));
+    TEST_ASSERT_EQUAL(841,square(29));
+    TEST_ASSERT_EQUAL(9216,square(-96));
+    }
+    void test_cube(void) {
+
+    TEST_ASSERT_EQUAL(27, cube(3));
+    TEST_ASSERT_EQUAL(-729,cube(-9));
+    TEST_ASSERT_EQUAL(0,cube(0));
+    TEST_ASSERT_EQUAL(24389,cube(29));
+    TEST_ASSERT_EQUAL(-14608,cube(-52));
+    }
+    void test_squareroot(void) {
+
+    TEST_ASSERT_EQUAL(81, squareroot(9));
+    TEST_ASSERT_EQUAL(0,squareroot(0));
+    TEST_ASSERT_EQUAL(0,squareroot(-13));
+    TEST_ASSERT_EQUAL(96,squareroot(9216));
+    }
+    void test_cuberoot(void) {
+
+    TEST_ASSERT_EQUAL(3, cuberoot(27));
+    TEST_ASSERT_EQUAL(0,cuberoot(0));
+    TEST_ASSERT_EQUAL(0,cuberoot(-15));
+    TEST_ASSERT_EQUAL(99,cuberoot(970299));
+    }
+    void test_factorial(void) {
+
+    TEST_ASSERT_EQUAL(120, squareroot(5));
+    TEST_ASSERT_EQUAL(1,squareroot(0));
+    TEST_ASSERT_EQUAL(1,squareroot(1));
+    TEST_ASSERT_EQUAL(0,squareroot(-13));
+    }
+
+
+  
     
