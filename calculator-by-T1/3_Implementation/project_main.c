@@ -74,7 +74,10 @@ switch(highlevel)
             scanf("%f",&operand2);
             printf("modulous is %.2f",modulous(operand1,operand2));
             }
-        default
+        default:
+            {
             printf("invalid operation");
-              
+            }
+            break;
+    }   
  case 2
