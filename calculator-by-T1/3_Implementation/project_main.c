@@ -5,9 +5,7 @@
 int main()
 {
 int highlevel;
-int choice2;
-int choice3;
-int choice4;
+int lowlevel1;
 printf("What do you want to do?\n1>Arithmetic\n2>Conversion\n3>Algebric\n4>Inbuild\n");
 
 scanf("%d", &highlevel);
@@ -18,7 +16,7 @@ switch(highlevel)
     {
     printf("What do you want to do?\n Addition subtraction multlipication");
     scanf("%d", &choice2);
-    switch(choice2)
+    switch(lowlevel1)
     {
         case 1:
         {   
@@ -65,6 +63,18 @@ switch(highlevel)
             {
                 printf("Cannot Divide by zero");
             }
-            
-            break;
-    case 2
+             break;
+        }
+        case 5:
+            {
+            float operand1,operand2;
+            printf ("enter the number1:");
+            scanf("%f",&operand1);
+            printf("enter the operand2:");
+            scanf("%f",&operand2);
+            printf("modulous is %.2f",modulous(operand1,operand2));
+            }
+        default
+            printf("invalid operation");
+              
+ case 2
