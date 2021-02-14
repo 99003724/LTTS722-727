@@ -20,7 +20,7 @@ Folder             | Description
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
 `ABC` | 12345678  | Feature A, B etc    | X No     | X No   |X No   |X No     
-99003724 |Archita Modi |Square,cube,square root,cube root,factorial | 2    |   |X No   |X No 
+99003724 |Archita Modi |Square,cube,square root,cube root,factorial | 2    | 7  |X No   |X No 
 99003727 |Shivakumar |conversion from degree to radian, conversion from radian to degree | x No | xNo | X No | X No
 99003722 |Aryan Verma    |In-build Function 1>Area 2> Conversion of polar to angular coordinate | 7 | 7 | 5 | 2
 
