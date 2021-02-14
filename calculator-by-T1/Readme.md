@@ -26,7 +26,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 ## Challenges Faced and How Was It Overcome
 
 1. Merging code overcame by creating separate branch and merging to master.
-2. BCD
+2. Make all command overcame by making separate header file, separate .c file and source file.
 3. ...
 4. ...
 
