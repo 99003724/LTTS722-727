@@ -73,11 +73,12 @@ switch(highlevel)
             printf("enter the operand2:");
             scanf("%f",&operand2);
             printf("modulous is %.2f",modulous(operand1,operand2));
+            break;
             }
         default:
             {
             printf("invalid operation");
-        }
+            }
             break;
     }
     
