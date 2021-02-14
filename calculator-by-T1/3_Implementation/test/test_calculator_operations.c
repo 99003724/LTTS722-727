@@ -11,6 +11,8 @@ void test_add_testcase2(void);
 void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
+void test_Degree(void);//done by shiva for conversion
+void test_radian(void);//done by shiva for conversion
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -29,6 +31,8 @@ int main()
   RUN_TEST(test_subtract);
   RUN_TEST(test_multiply);
   RUN_TEST(test_divide);
+  RUN_TEST(test_Degree);
+  RUN_TEST(test_radian);
 
   /* Close the Unity Test Framework */
   return UNITY_END();
@@ -63,4 +67,12 @@ void test_divide(void) {
   
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(3, divide(2, 2));
+}
+void test_Degree(void) {                 //written by shiva for testing
+  TEST_ASSERT_EQUAL(1.570796, Degree(90));
+  TEST_ASSERT_EQUAL(3.141593, Degree(180));
+}
+void test_radian(void) {                     //written by shiva for testing
+  TEST_ASSERT_EQUAL(90, radian(1.570796));
+  TEST_ASSERT_EQUAL(180, radian(3.141593));
 }
