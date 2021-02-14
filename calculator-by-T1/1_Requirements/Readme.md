@@ -61,6 +61,6 @@
 - LL_3.3 | Area of triangle | Implemented | Aryan
 - LL_4.1 | Polar to rectangular | Implemented | Aryan
 - LL_4.2 | Rectangular to polar | Implemented | Aryan
--LL_4.3 | Radians to degree | Implemented | Shiva
+- LL_4.3 | Radians to degree | Implemented | Shiva
 - LL_4.4 | Degree to radian | Implemented | Shiva
 - LL_4.5 | Storing of data | Implemented | Shiva
