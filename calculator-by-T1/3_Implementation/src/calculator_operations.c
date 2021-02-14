@@ -22,15 +22,3 @@ int divide(int operand1, int operand2)
     else
         return operand1 / operand2;
 }
-
-float Radian(float degree)
-{   
-    float rad;
-    return rad=degree*(M_PI/180);
-    
-}
-float Degree(float rad)
-{ 
-    float degree;
-    return degree=rad/(M_PI/180);
-}
