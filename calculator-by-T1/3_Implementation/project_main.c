@@ -27,7 +27,7 @@ switch(highlevel)
             scanf("%d", &operand1);
             printf("Enter second number ");
             scanf("%d", &operand2);
-            printf("Sum is: %d", addition(operand1,operand2));
+            printf("Sum is: %d", add(operand1,operand2));
             break;
         }
         case 2:
@@ -37,7 +37,7 @@ switch(highlevel)
             scanf("%d", &operand1);
             printf("Enter second number ");
             scanf("%d", &operand2);
-            printf("Difference is: %d",substraction(operand1,operand2));
+            printf("Difference is: %d",substract(operand1,operand2));
             break;
         }
         case 3:
@@ -47,7 +47,7 @@ switch(highlevel)
             scanf("%lf", &operand2);
             printf("Enter second number ");
             scanf("%lf", &operand2);
-            printf("Product is: %.3lf",multiplication(operand1,operand2));
+            printf("Product is: %.3lf",multiply(operand1,operand2));
             break;
         }
         case 4:
@@ -59,7 +59,7 @@ switch(highlevel)
             scanf("%lf", &operand2);
             if(operand2>0)
             {
-            printf("Result is: %.5lf",division(operand1,operand2));
+            printf("Result is: %.5lf",divide(operand1,operand2));
             }
             else
             {
@@ -68,29 +68,27 @@ switch(highlevel)
             
             break;
         }
+    }    
     case 2:
     
     {
     //char a[20]="";
         float degree,rad;
         printf("what do you want convert?give the choice as 1Degree. or 2.Radian\n");
-        char b[10];
-        scanf("%c",b);
-        if(b[0]="D")
+        char b;
+        scanf("%c",&b);
+        if(b=='D')
         {
            printf("give the data to convert from degrees to radian\n");
            scanf("%f",&degree);
-           printf("%f", rad(degree));}
-        else if(b[0]="R")
+           printf("%f", Radian(degree));}
+        else
         {
            printf("give the data to convert from radian to degrees\n");
            scanf("%f",&rad);
-           printf("%f",degree(rad));
-        }
-        else
-        {
-           printf("Invalid inputs");
+           printf("%f",Degree(rad));
         }
     }
 
 }
+}}

@@ -44,7 +44,7 @@ int multiply(int operand1, int operand2);
 * @note returns 0 for divide by 0 error
 */
 int divide(int operand1, int operand2);
-float Degree(float rad,float degree);
-float radian(float degree,float rad);
+float Degree(float rad);
+float Radian(float degree);
 
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
