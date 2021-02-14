@@ -18,23 +18,23 @@
 
 ## Who:
 
-**TBD**
+Students and research people.
 
 ## What:
 
-**TBD**
+Advance programmable calculator
 
 ## When:
 
-**TBD**
+For calculations in signal processing and simple calculations.
 
 ## Where:
 
-**TBD**
+Research work and iterative work
 
 ## How:
 
-**TBD**
+By using the built in functions.
 
 # Detail requirements
 ## High Level Requirements:
