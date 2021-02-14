@@ -20,11 +20,11 @@ Folder             | Description
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
 `ABC` | 12345678  | Feature A, B etc    | X No     | X No   |X No   |X No     
-`DEF` | 12345678  | Feature C, D etc    | X No     | X No   |X No   |X No     
+99003724 |Archita Modi |Square,cube,square root,cube root,factorial | X No     | X No   |X No   |X No     
 
 ## Challenges Faced and How Was It Overcome
 
-1. ABC
+1. Merging code overcame by creating separate branch and merging to master.
 2. BCD
 3. ...
 4. ...
