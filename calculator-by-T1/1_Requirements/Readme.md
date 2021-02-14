@@ -6,7 +6,8 @@
 ![Description](Link to Pic)
 -- Content 
 ## Cost and Features
-![Description](Link to Pic)
+![CostvsFeatures](https://user-images.githubusercontent.com/78853934/107878897-a93b1400-6efb-11eb-9c9e-0d3f0f156910.PNG)
+
 -- Content 
 ## Defining Our System
     -- TBD
@@ -17,23 +18,23 @@
 
 ## Who:
 
-**TBD**
+Students and research people.
 
 ## What:
 
-**TBD**
+Advance programmable calculator
 
 ## When:
 
-**TBD**
+For calculations in signal processing and simple calculations.
 
 ## Where:
 
-**TBD**
+Research work and iterative work
 
 ## How:
 
-**TBD**
+By using the built in functions.
 
 # Detail requirements
 ## High Level Requirements:
@@ -61,6 +62,6 @@
 - LL_3.3 | Area of triangle | Implemented | Aryan
 - LL_4.1 | Polar to rectangular | Implemented | Aryan
 - LL_4.2 | Rectangular to polar | Implemented | Aryan
--LL_4.3 | Radians to degree | Implemented | Shiva
+- LL_4.3 | Radians to degree | Implemented | Shiva
 - LL_4.4 | Degree to radian | Implemented | Shiva
 - LL_4.5 | Storing of data | Implemented | Shiva
