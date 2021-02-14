@@ -115,6 +115,21 @@ void test_divide(void) {
     TEST_ASSERT_EQUAL(1,squareroot(1));
     TEST_ASSERT_EQUAL(0,squareroot(-13));
     }
+    void Area(void) {
+
+    TEST_ASSERT_EQUAL(44, perimeter(7));
+    TEST_ASSERT_EQUAL(154,circle(7));
+    TEST_ASSERT_EQUAL(100,rectangle(10,10));
+    TEST_ASSERT_EQUAL(56.99,triangle(10,12,13));
+    }
+    void conersion(void)
+    {
+    TEST_ASSERT_EQUAL(44, Polar to Cartesian coordinate(7));
+    TEST_ASSERT_EQUAL(154,circle(7));
+    TEST_ASSERT_EQUAL(100,rectangle(10,10));
+    TEST_ASSERT_EQUAL(56.99,triangle(10,12,13));
+    
+    }
 
 
   
