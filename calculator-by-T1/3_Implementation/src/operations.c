@@ -1,5 +1,4 @@
-#include "operations.h"
-
+#include <operations.h>
 double square(double sq)
 {
     return sq*sq;
