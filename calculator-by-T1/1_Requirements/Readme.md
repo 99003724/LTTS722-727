@@ -6,7 +6,8 @@
 ![Description](Link to Pic)
 -- Content 
 ## Cost and Features
-![Description](Link to Pic)
+![CostvsFeatures](https://user-images.githubusercontent.com/78853934/107878897-a93b1400-6efb-11eb-9c9e-0d3f0f156910.PNG)
+
 -- Content 
 ## Defining Our System
     -- TBD
