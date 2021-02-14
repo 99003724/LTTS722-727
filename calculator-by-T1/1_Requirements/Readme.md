@@ -12,7 +12,7 @@
 ## Defining Our System
     -- TBD
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+![SWOT-Sample](https://user-images.githubusercontent.com/78848562/107878936-e4d5de00-6efb-11eb-9fe8-31c22b60387e.png)
 
 # 4W&#39;s and 1&#39;H
 
