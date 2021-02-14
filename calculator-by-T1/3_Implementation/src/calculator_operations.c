@@ -10,7 +10,7 @@ int substraction(int operand1, int operand2)
     return operand1 - operand2;
 }
 
-int multiplication(int operand1, int operand2)
+double multiplication(int operand1, int operand2)
 {
     return operand1 * operand2;
 }
