@@ -110,10 +110,10 @@ void test_divide(void) {
     }
     void test_factorial(void) {
 
-    TEST_ASSERT_EQUAL(120, squareroot(5));
-    TEST_ASSERT_EQUAL(1,squareroot(0));
-    TEST_ASSERT_EQUAL(1,squareroot(1));
-    TEST_ASSERT_EQUAL(0,squareroot(-13));
+    TEST_ASSERT_EQUAL(120, factorial(5));
+    TEST_ASSERT_EQUAL(1,factorial(0));
+    TEST_ASSERT_EQUAL(1,factorial(1));
+    TEST_ASSERT_EQUAL(0,factorial(-13));
     }
     void Area(void) {
 
