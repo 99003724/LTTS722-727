@@ -1,12 +1,13 @@
-#ifndef __CONVERSION_H__
-#define __CONVERSION_H__
+#include <conversion.h>
+float Radian(float degree) //conversion from degree to radian.
+{   
+    float rad;
+    return rad=degree*(M_PI/180);
+    
+}
+float Degree(float rad) //conversion from radian to degree.
+{ 
+    float degree;
+    return degree=rad/(M_PI/180);
+}
 
-#include <stdio.h>
-#include <stdlib.h>
-#include<math.h>
-
-
-float Degree(float rad);
-float Radian(float degree);
-
-#endif  
