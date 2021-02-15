@@ -4,9 +4,9 @@
 
 | **Test ID** | **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-|  H_01       |--------------------------------------------------------------|  ------------|-------------|----------------|Requirement based |
-|  H_02       |--------------------------------------------------------------|  ------------|-------------|----------------|Scenario based    |
-|  H_03       |--------------------------------------------------------------|  ------------|-------------|----------------|Boundary based    |
+|  H_02       |Input taken as a string for conversion| abdch |invalid input|invalid input|Scenario based |
+|  H_02       |input taken as degree|  90 |1.5708|1.5708|Scenario based    |Scenario passed|
+|  H_02       |Input taken as radian|  |3.14|180|180| Boundary based    |
 |  H_02       |integer taken as whole number will give output as whole number| 9  |square=81|81|Requirement based |
 |  H_02       |Integer taken as negative number will give output as negative whole number or zero| -11|cube =-1331|-1331|Scenario based    |
 |  H_02       |Input taken as boundary exceeding integer|sqrt(100000000000) |3468.7 | overflow in implicit |Boundary based    |
@@ -23,8 +23,8 @@
 |  L_01       |--------------------------------------------------------------|  ------------|-------------|----------------|Requirement based |
 |  L_02       |--------------------------------------------------------------|  ------------|-------------|----------------|Scenario based    |
 |  L_03       |--------------------------------------------------------------|  ------------|-------------|----------------|Boundary based    |
-|  L_04       |--------------------------------------------------------------|  ------------|-------------|----------------|Requirement based |
-|  L_05       |--------------------------------------------------------------|  ------------|-------------|----------------|Scenario based    |
+|  L_04       |Input taken as float for radian|  3.141|180|180|Requirement based |
+|  L_05       |Input taken as 360 for degree| 360  |6.2839|6.2839|boundary based based    |
 |  L_06       |Input taken as whole numbers to find square | 4 |16 | 16 |Requirement based    |
 |  L_06      | Input taken as negative number to find square|  121| -11| 121|Scenario based |
 |  L_06       |Input taken as boundary exceeding integer|100000000  | 10000000000000000| overflow in implicit|Boundary based based    |
