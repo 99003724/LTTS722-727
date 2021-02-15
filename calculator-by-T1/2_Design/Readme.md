@@ -24,6 +24,16 @@
 ![Use Diagram](https://user-images.githubusercontent.com/78853934/107879719-85c69800-6f00-11eb-98f2-9689f65a620e.png)
 ### Behavioral Diagram for conversting degree to radian & viceversa
 ![state diagram](https://user-images.githubusercontent.com/78849172/107895181-6a877700-6f58-11eb-9192-1c1ae2aecb09.png)
+### usecase diagram for all the high level requirements
+![use case3725](https://user-images.githubusercontent.com/78849373/107902236-e0e1a480-6f6b-11eb-8e95-caeacdd5bde1.png)
+###  usecase diagram for basic arithmetic operations
+![use case](https://user-images.githubusercontent.com/78849373/107902256-ea6b0c80-6f6b-11eb-894e-f9bd81d74aa5.png)
+### activity diagram for basic arithmetic operations
+![activity diagram](https://user-images.githubusercontent.com/78849373/107902264-efc85700-6f6b-11eb-9d2a-7de463b226ae.png)
+### component diagram for basic arithmetic operations
+![component diagram](https://user-images.githubusercontent.com/78849373/107902286-ffe03680-6f6b-11eb-8585-f88488a58747.png)
+
+
 
 
 

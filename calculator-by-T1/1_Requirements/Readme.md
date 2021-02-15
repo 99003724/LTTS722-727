@@ -10,10 +10,11 @@ Reaearch on various calculators are done which are present in the market like sc
 
 
 ## Defining Our System
-    our system do all arithmetic operations,and it calculates square root ,power ,cube ,factorial and it can able to convert a value from degree to radians and degree to radians
-     as well.
-![calculator parts](https://user-images.githubusercontent.com/78849373/107886013-3a859880-6eb2-11eb-94e4-fa266ee1c07b.jpg)
-     these are the parts in the calculator 
+    our system do all arithmetic operations,and it calculates square root ,power ,cube ,factorial and it can able to convert a value from degree to 
+    radians and degree to radians as well.
+     
+                                      These are the parts in the calculator.
+    it is very helpful for engineering students and merchants and in financing people etc.
 ## SWOT ANALYSIS
 ![SWOT-Sample](https://user-images.githubusercontent.com/78848562/107878936-e4d5de00-6efb-11eb-9fe8-31c22b60387e.png)
 
