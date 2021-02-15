@@ -5,9 +5,7 @@
 int main()
 {
 int highlevel;
-int choice2;
-int choice3;
-int choice4;
+int lowlevel1;
 printf("What do you want to do?\n1>Arithmetic\n2>Conversion\n3>Algebric\n4>Inbuild\n");
 
 scanf("%d", &highlevel);
@@ -18,7 +16,7 @@ switch(highlevel)
     {
     printf("What do you want to do?\n Addition subtraction multlipication");
     scanf("%d", &choice2);
-    switch(choice2)
+    switch(lowlevel1)
     {
         case 1:
         {   
@@ -27,7 +25,7 @@ switch(highlevel)
             scanf("%d", &operand1);
             printf("Enter second number ");
             scanf("%d", &operand2);
-            printf("Sum is: %d", add(operand1,operand2));
+            printf("Sum is: %d", addition(operand1,operand2));
             break;
         }
         case 2:
@@ -37,7 +35,7 @@ switch(highlevel)
             scanf("%d", &operand1);
             printf("Enter second number ");
             scanf("%d", &operand2);
-            printf("Difference is: %d",substract(operand1,operand2));
+            printf("Difference is: %d",substraction(operand1,operand2));
             break;
         }
         case 3:
@@ -47,7 +45,7 @@ switch(highlevel)
             scanf("%lf", &operand2);
             printf("Enter second number ");
             scanf("%lf", &operand2);
-            printf("Product is: %.3lf",multiply(operand1,operand2));
+            printf("Product is: %.3lf",multiplication(operand1,operand2));
             break;
         }
         case 4:
@@ -59,12 +57,266 @@ switch(highlevel)
             scanf("%lf", &operand2);
             if(operand2>0)
             {
-            printf("Result is: %.3lf",divide(operand1,operand2));
+            printf("Result is: %.5lf",division(operand1,operand2));
             }
             else
             {
                 printf("Cannot Divide by zero");
             }
-            
+             break;
+        }
+        case 5:
+            {
+            float operand1,operand2;
+            printf ("enter the number1:");
+            scanf("%f",&operand1);
+            printf("enter the operand2:");
+            scanf("%f",&operand2);
+            printf("modulous is %.2f",modulous(operand1,operand2));
             break;
-    case 2
+            }
+        default:
+            {
+            printf("invalid operation");
+            }
+            break;
+    }
+    
+case 2:
+    {
+    double square,cube,cube_root,square_root;int factorial;
+    printf("Select the operation\n");
+    printf("1>Square\n2>Cube\n3>Square_root\n4>Cube_root\n5>Factorial\n");
+    int select_function;
+    scanf("%d",&select_function);
+    if(select_function==1)
+    {
+        double sq;
+        printf("Enter a number: ");
+        scanf("%lf",&sq);
+        {
+            square=sq*sq;
+            printf("%lf",square);
+            printf("Square of the number is ");
+            return 0;
+            
+        }
+        
+    }
+    else if(select_function==2)
+    {
+        double cu;
+        printf("Enter a number: ");
+        scanf("%lf",&cu);
+        {
+            cube=cu*cu*cu;
+            printf("%lf",cube);
+             printf("Cube of the number is ");
+            return 0;
+            
+        }
+                
+         }
+         else if(select_function==3)
+         {
+            double sq_rt;
+            printf("Enter a number: ");
+            scanf("%lf",&sq_rt);
+            {
+                square_root=sqrt(sq_rt);
+                 printf("Square root of the number is ");
+                printf("%lf",square_root);
+                return 0;
+                
+            }
+         }
+         else if(select_function==4)
+         {
+            double cu_rt;
+            printf("Enter a number: ");
+            scanf("%lf",&cu_rt);
+            {
+                cube_root=cbrt(cu_rt);
+                 printf("Cube root of the number is ");
+                printf("%lf",cube_root);
+                return 0;
+                
+            }
+         }
+         else if(select_function==5)
+         {
+             int n, i;
+             unsigned long long fact = 1;
+             printf("Enter an integer: ");
+             scanf("%d", &n);
+             // shows error if the user enters a negative integer
+             if (n < 0)
+             printf("Error! Factorial of a negative number doesn't exist.");
+             else 
+             {
+                 for (i = 1; i <= n; ++i)
+                 {
+                     fact *= i;
+                     
+                 }
+        printf("Factorial of %d = %llu", n, fact);
+             }
+             return 0;
+         }
+    
+}
+}
+Case 3:{}
+case 4
+{
+    int fun;
+    scanf("%d",&fun);
+    if(fun==1 || fun==2)
+      {
+          if(func==1)
+     {   float radius,length,breadth,sideOne,sideTwo,sideThree,area,perimeter,s;
+         int figure;
+         printf("Choose the figure :\n");
+
+         printf("1>Circle\n2>Triangle\n3>Reactangle\n");
+
+         scanf("%d",&figure);
+
+         if(figure==1)
+         {
+                 int ap;
+                 printf("1>Area 2>Perimeter\n");
+                 scanf("%d",&ap);
+                 if(ap==1)
+                 {
+                 printf("Radius:");
+                 scanf("%f",&radius);
+                 area = PI * radius * radius;
+                 printf("%f",area);
+                 return 0;
+                 }
+                 else
+                 {
+                 printf("Radius:");
+                 scanf("%f",&radius);
+                 perimeter=2*PI*radius;
+                 printf("%f",perimeter);
+                 return 0;
+                 }
+         }
+         else if(figure==2)
+         {
+                 int ap;
+                 printf("1>Area 2>Perimeter\n");
+                 scanf("%d",&ap);
+                 if(ap==1)
+                 {
+                 printf("Enter the length of three sides of triangle\n");
+                 scanf("%f %f %f", &sideOne, &sideTwo, &sideThree);
+                 s = (sideOne + sideTwo + sideThree)/2;
+                 area = sqrt(s*(s-sideOne)*(s-sideTwo)*(s-sideThree));
+                 printf("%f",area);
+                 return 0;
+                 }
+                 else
+                 {
+                 printf("Enter the length of three sides of triangle\n");
+                 scanf("%f %f %f", &sideOne, &sideTwo, &sideThree);
+                 perimeter = sideOne+sideTwo+sideThree;
+                 printf("%f",perimeter);
+                 return 0;
+                 }
+         }
+         else if(figure==3)
+         {
+                 int ap;
+                 printf("1>Area 2>Perimeter\n");
+                 scanf("%d",&ap);
+                 if(ap==1)
+                 {
+                 printf("Enter the value of length and breadth\n");
+                 scanf("%f %f",&length,&breadth);
+                 area=length*breadth;
+                 printf("%f",area);
+                 return 0;
+                 }
+                 else
+                 {
+                 printf("Enter the value of length and breadth\n");
+                 scanf("%f %f",&length,&breadth);
+                 perimeter = length+breadth ;
+                 printf("%f",perimeter*2);
+                 return 0;
+                 }
+
+         }
+         else
+         {
+             printf("Invalid Input");
+             return 0;
+         }
+
+   }
+else if(func==2)
+{    printf("1>Polar to Cartesian coordinate\n2>Cartesian to Polar\n");
+     int conv;
+     scanf("%d",&conv);
+     if(conv==1)
+     {
+     float x, y, r, theta;
+
+	 printf("Enter radius of polar coordinate (r): \n");
+	 scanf("%f", &r);
+	 printf("Enter angle of polar coordinate in degree (theta): \n");
+	 scanf("%f", &theta);
+
+	 /* Converting theta from degree to radian */
+	 theta = theta * PI/180.0;
+
+	 /* Calculating cartesian coordinate x */
+	 x = r * cos(theta);
+
+	 /* Calculating cartesian coordinate y */
+	 y = r * sin(theta);
+
+	 printf("Cartesian coordinates is: (%0.3f, %0.3f)", x, y);
+	 getch();
+	 return(0);
+     }
+     else
+     {
+     float x, y, r, theta;
+
+	 printf("Enter cartesian coordinate x: \n");
+	 scanf("%f", &x);
+	 printf("Enter cartesian coordinate y: \n");
+	 scanf("%f", &y);
+
+
+	 /* Calculating r */
+	 r = sqrt(x*x + y*y);
+
+	 /* Calculating theta in radian */
+	 theta = atan(y/x);
+
+	 /* Converting theta from degree to radian */
+	 theta = 180.0 * theta/ PI;
+
+	 printf("Polar coordinate is: r = %0.2f and theta = %0.2f in degree", r, theta);
+	 getch(); /* Holds Screen */
+
+	 return(0);
+     }
+}
+else
+         {
+             printf("Invalid Input");
+             return 0;
+         }
+      }
+else
+    printf("Invlaid");
+
+
+}   
+ 
