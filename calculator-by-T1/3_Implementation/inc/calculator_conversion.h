@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include<math.h>
 
-int divide(int operand1, int operand2);
+
 float Degree(float rad);
 float Radian(float degree);
 
