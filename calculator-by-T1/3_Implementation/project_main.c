@@ -83,6 +83,8 @@ switch(highlevel)
     }
     
 case 2:
+    
+Case 3:
     {
     double square,cube,cube_root,square_root;int factorial;
     printf("Select the operation\n");
@@ -166,7 +168,7 @@ case 2:
     
 }
 }
-Case 3:{}
+}
 case 4
 {
     int fun;
