@@ -21,11 +21,11 @@ double cbrt(double cb_rt)
 }
  int factorial(int number)
 {
-  int iteration, factorial=1;
+  int iteration, fact=1;
   for(iteration=1; iteration<=number; iteration++)
   {
-    	factorial=factorial*iteration;
+    	fact=fact*iteration;
         }
-  return factorial;
+  return fact;
  
 
