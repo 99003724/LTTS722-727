@@ -9,6 +9,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<math.h>
+
+float Degree(float rad);
+float Radian(float degree);
 //#include <stdio_ext.h>
 
 /**
