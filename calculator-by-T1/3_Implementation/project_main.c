@@ -111,7 +111,6 @@ Case 3:
         printf("Enter a number: ");
         scanf("%lf",&cu);
         {
-            printf("%lf",cube);
              printf("Cube of the number is ",cube(cu));
             return 0;
             
