@@ -7,7 +7,7 @@
 |  H_01       |--------------------------------------------------------------|  ------------|-------------|----------------|Requirement based |
 |  H_02       |--------------------------------------------------------------|  ------------|-------------|----------------|Scenario based    |
 |  H_03       |--------------------------------------------------------------|  ------------|-------------|----------------|Boundary based    |
-|  H_02       |integer taken as whole number will give output as whole number| 9  |sq=81|81|Requirement based |
+|  H_02       |integer taken as whole number will give output as whole number| 9  |square=81|81|Requirement based |
 |  H_02       |Integer taken as negative number will give output as negative whole number or zero| -11|cube =-1331|-1331|Scenario based    |
 |  H_02       |Input taken as boundary exceeding integer|sqrt(100000000000) |3468.7 | overflow in implicit |Boundary based    |
 
