@@ -48,4 +48,4 @@ double cube_root(double cu_rt);
 */
 int factorial(int number);
 
-#endif  /* #define __CALCULATOR_OPERATIONS_H__ */
+#endif  /* #define __OPERATIONS_H__ */
