@@ -17,6 +17,8 @@ void test_cube(void);
 void test_squareroot(void);
 void test_cuberoot(void);
 void test_factorial(void);
+void test_Degree(void);//done by shiva for conversion
+void test_radian(void);//done by shiva for conversion
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -40,6 +42,8 @@ int main()
   RUN_TEST(test_squareroot);
   RUN_TEST(test_cuberoot);
   RUN_TEST(test_factorial);
+  RUN_TEST(test_Degree);//done by shiva for conversion
+  RUN_TEST(test_radian);//done by shiva for conversion
 
   /* Close the Unity Test Framework */
   return UNITY_END();
@@ -130,6 +134,14 @@ void test_divide(void) {
     TEST_ASSERT_EQUAL(56.99,triangle(10,12,13));
     
     }
+void test_Degree(void) {                 //written by shiva for testing
+  TEST_ASSERT_EQUAL(1.570796, Degree(90));
+  TEST_ASSERT_EQUAL(3.141593, Degree(180));
+}
+void test_radian(void) {                     //written by shiva for testing
+  TEST_ASSERT_EQUAL(90, radian(1.570796));
+  TEST_ASSERT_EQUAL(180, radian(3.141593));
+}
 
 
   
