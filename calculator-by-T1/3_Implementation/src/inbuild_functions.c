@@ -1,3 +1,4 @@
+#include<inbuild_function.h>
 float Inbuilt(int func)
 {
 if(func==1)
