@@ -3,14 +3,13 @@
  A calculator is a machine which allows people to do math operations more easily. For example, most calculators will add, subtract, multiply, and divide. Some also do square roots, and more complex calculators can help with calculus and draw function graphs. Calculators are found everywhere
 
 ## Research
-![Description](Link to Pic)
 Reaearch on various calculators are done which are present in the market like scientific calculator, Graphing calculator, Abacus, Basic calculator and thier functions are also studied.
 ## Cost and Features
 ![CostvsFeatures](https://user-images.githubusercontent.com/78853934/107878897-a93b1400-6efb-11eb-9c9e-0d3f0f156910.PNG)
 
 
 ## Defining Our System
-  our system do all arithmetic operations,and it calculates square root ,power ,cube ,factorial and it can able to convert a value from degree to 
+  The system do all arithmetic operations,and it calculates square root ,power ,cube ,factorial and it can able to convert a value from degree to 
   radians and degree to radians as well.
    ![calculator model](https://user-images.githubusercontent.com/78849373/107903716-e4772a80-6f6f-11eb-9f38-ad194f08bc3a.jpg)These are the parts in the calculator.
     it is very helpful for engineering students and merchants and in financing people etc.
