@@ -36,3 +36,9 @@
 |  L_10       |Input taken as whole number to find factorial| 5|120|120|Requirement based    |
 |  L_10       |Input taken as negative number to find factorial |  -13|invalid|invalid|Scenario Based    |
 |  L_10       | Input taken as boundary exceeding integer | 72  | 6.123446e+103| 0 |Boundary based    |
+|L_11|Input is taken as a to select the function then the radius data is taken|7|154|153.9|Requirement Based|
+|L_11|Input taken for the area of the circle|-7|153.9|Invlaid Input |Scenario Based|
+|L_11|Input taken for the area of the circle|100000000000000|31400000000000000000000|Infy|Boundry Based
+|L_12|Input is taken for the polar coordinate and converted into the Cartesian |7,10|6.849,1.215|6.849,1.215|Requirement Based|
+|L_12| Input is taken for the polar coordinate and converted into the Cartesian (negative number) |-10, -180|10,0.006|Scenario Based|
+|L_12| Input is taken for the polar coordinate and converted into the Cartesian |100000000000000,10000000000000|220054504836431872.000, -975487540796588032.000|22124212231153.000, -554334434664434343334434|Boundry Based|
