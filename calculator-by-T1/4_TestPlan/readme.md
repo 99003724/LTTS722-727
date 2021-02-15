@@ -12,7 +12,7 @@
 |  H_02       |Input taken as boundary exceeding integer|sqrt(100000000000) |3468.7 | overflow in implicit |Boundary based    |
 |H_03|Integer is taken for the function selection|1,7|154|154|Requirement Based|
 |H_03|Integer is taken for function seletion other than given function|3|Invalid|Invalid|Boundry Based|
-|H_03|Integr is taken for the function selction (other than number)|Ar\Invalid|Invalid|Scenatio based|
+|H_03|Integr is taken for the function selction (other than number)|Ar|Invalid|Invalid|Scenatio based|
 
 
 ## Table no: Low level test plan
