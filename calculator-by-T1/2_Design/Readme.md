@@ -4,7 +4,8 @@
 ### State Diagram of Inbuild Function:
 ![State Diagram of Inbuild Function:](https://user-images.githubusercontent.com/78848562/107875685-5a837f00-6ee7-11eb-9629-ff9064a72354.png)
 ![Activity UML Diagram](https://user-images.githubusercontent.com/78853934/107880566-af35f280-6f05-11eb-8e66-00a0b97d4932.png)
-![HighLevelBehaviouralDiagram](Link to Pic)
+### class diagram in structure
+![class UML Diagram in structure](https://user-images.githubusercontent.com/78849172/107894860-20ea5c80-6f57-11eb-9876-c9360de479a4.png))
 
 ## Low Level Design 
 
