@@ -2,11 +2,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include <calculator_operations.h>
+<<<<<<< Updated upstream
 #include <operations.h>
+=======
+#define PI 3.141;
+>>>>>>> Stashed changes
 int main()
 {
 int highlevel;
 int lowlevel1;
+int choice1;
 printf("What do you want to do?\n1>Arithmetic\n2>Conversion\n3>Algebric\n4>Inbuild\n");
 
 scanf("%d", &highlevel);
@@ -16,7 +21,7 @@ switch(highlevel)
     case 1:
     {
     printf("What do you want to do?\n Addition subtraction multlipication");
-    scanf("%d", &choice2);
+    scanf("%d", &choice1);
     switch(lowlevel1)
     {
         case 1:
@@ -162,13 +167,13 @@ Case 3:
 }
 }
 }
-case 4
+case 4:
 {
     int fun;
     scanf("%d",&fun);
     if(fun==1 || fun==2)
       {
-          if(func==1)
+          if(fun==1)
      {   float radius,length,breadth,sideOne,sideTwo,sideThree,area,perimeter,s;
          int figure;
          printf("Choose the figure :\n");
@@ -186,16 +191,16 @@ case 4
                  {
                  printf("Radius:");
                  scanf("%f",&radius);
-                 area = PI * radius * radius;
-                 printf("%f",area);
+                 area = 3.14 * radius;
+                 printf("%f",area*radius);
                  return 0;
                  }
                  else
                  {
                  printf("Radius:");
                  scanf("%f",&radius);
-                 perimeter=2*PI*radius;
-                 printf("%f",perimeter);
+                 perimeter=2*PI;
+                 printf("%f",perimeter*radius);
                  return 0;
                  }
          }
@@ -252,7 +257,7 @@ case 4
          }
 
    }
-else if(func==2)
+else if(fun==2)
 {    printf("1>Polar to Cartesian coordinate\n2>Cartesian to Polar\n");
      int conv;
      scanf("%d",&conv);
@@ -266,7 +271,8 @@ else if(func==2)
 	 scanf("%f", &theta);
 
 	 /* Converting theta from degree to radian */
-	 theta = theta * PI/180.0;
+     theta = theta * PI
+	 theta = theta/180.0;
 
 	 /* Calculating cartesian coordinate x */
 	 x = r * cos(theta);
