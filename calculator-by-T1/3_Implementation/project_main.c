@@ -97,9 +97,9 @@ Case 3:
         printf("Enter a number: ");
         scanf("%lf",&sq);
         {
-            square=sq*sq;
+            
             printf("%lf",square);
-            printf("Square of the number is ");
+            printf("Square of the number is ",square(sq));
             return 0;
             
         }
@@ -111,22 +111,21 @@ Case 3:
         printf("Enter a number: ");
         scanf("%lf",&cu);
         {
-            cube=cu*cu*cu;
             printf("%lf",cube);
-             printf("Cube of the number is ");
+             printf("Cube of the number is ",cube(cu));
             return 0;
             
         }
+    }
                 
-         }
          else if(select_function==3)
          {
             double sq_rt;
             printf("Enter a number: ");
             scanf("%lf",&sq_rt);
             {
-                square_root=sqrt(sq_rt);
-                 printf("Square root of the number is ");
+                sqrt(sq_rt);
+                 printf("Square root of the number is ", sqrt(sq_rt));
                 printf("%lf",square_root);
                 return 0;
                 
@@ -138,8 +137,7 @@ Case 3:
             printf("Enter a number: ");
             scanf("%lf",&cu_rt);
             {
-                cube_root=cbrt(cu_rt);
-                 printf("Cube root of the number is ");
+                 printf("Cube root of the number is ",cbrt(cu_rt));
                 printf("%lf",cube_root);
                 return 0;
                 
@@ -147,7 +145,7 @@ Case 3:
          }
          else if(select_function==5)
          {
-             int n, i;
+             int fact, iteration;
              unsigned long long fact = 1;
              printf("Enter an integer: ");
              scanf("%d", &n);
@@ -156,12 +154,7 @@ Case 3:
              printf("Error! Factorial of a negative number doesn't exist.");
              else 
              {
-                 for (i = 1; i <= n; ++i)
-                 {
-                     fact *= i;
-                     
-                 }
-        printf("Factorial of %d = %llu", n, fact);
+                printf("Factorial of %d = %llu", iteration, factorial(fact));
              }
              return 0;
          }
