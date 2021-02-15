@@ -43,7 +43,7 @@ By using the built in functions.
 ## High Level Requirements:
 -- ID | Description | Status (Implemented/Future) | Owner
 
-- HL_1 | Arithmetic Operations | Implemented | Sai
+- HL_1 | Arithmetic Operations | Implemented | Sai kalki
 - HL_2 | Mathematical Operations | Implemented | Archita
 - HL_3 | Mensuration Calculations | Implemented | Aryan
 - HL_4 | Conversion | Implemented | Shiva
@@ -51,10 +51,10 @@ By using the built in functions.
 
 ##  Low level Requirements:
 -- ID | Description | Status (Implemented/Future) | Owner
-- LL_1.1 | Addition | Implemented | Sai 
-- LL_1.2 | Subtraction | Implemented | Sai
-- LL_1.3 | Multiplication | Implemented | Sai
-- LL_1.4 | Division | Implemented | Sai
+- LL_1.1 | Addition | Implemented | Sai kalki
+- LL_1.2 | Subtraction | Implemented | Sai kalki
+- LL_1.3 | Multiplication | Implemented | Sai kalki
+- LL_1.4 | Division | Implemented | Sai kalki
 - LL_2.1 | Square | Implemented | Archita
 - LL_2.2 | Cube | Implemented | Archita
 - LL_2.3 | Square root | Implemented | Archita
