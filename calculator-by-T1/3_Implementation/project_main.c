@@ -3,7 +3,7 @@
 #include<stdlib.h>
 #include <calculator_operations.h>
 #include <conversion.h>
-#include<inbuild_function.h>
+#include<inbuild_functions.h>
 #include <operations.h>
 int main()
 {
@@ -30,7 +30,7 @@ switch(highlevel)
             scanf("%d", &operand1);
             printf("Enter second number ");
             scanf("%d", &operand2);
-            printf("Sum is: %d", addition(operand1,operand2));
+            printf("Sum is: %d", operand1+operand2);
             break;
         }
         case 2:
@@ -134,7 +134,7 @@ case 3:
         {
             
             
-            printf("Square of the number is %lf",square(sq));
+            printf("Square of the number is %lf",sq* sq);
             return 0;
             
         }
@@ -146,7 +146,7 @@ case 3:
         printf("Enter a number: ");
         scanf("%lf",&cu);
         {
-             printf("Cube of the number is %lf",cube(cu));
+             printf("Cube of the number is %lf",cu* cu * cu);
             return 0;
             
         }
@@ -180,7 +180,7 @@ case 3:
          else if(select_function==5)
          {
              int fact, iteration;
-             unsigned long long fact = 1;
+             
              int n;
              printf("Enter an integer: ");
              scanf("%d", &n);
@@ -189,7 +189,13 @@ case 3:
              printf("Error! Factorial of a negative number doesn't exist.");
              else 
              {
-                printf("Factorial of %d = %llu", iteration, factorial(fact));
+                 {
+                 int iteration, fact=1;
+                  for(iteration=1; iteration<=n; iteration++)
+  {
+    	fact=fact*iteration;
+        }
+                printf("Factorial of %d = %llu",fact);
              }
              return 0;
          }
@@ -203,9 +209,10 @@ case 3:
         {
       int func;
      scanf("%d",&func);
-     inbuild_function(func);
+     inbuild_functions(func);
            }
         default: printf("invalid");
 
+}
 }
 }

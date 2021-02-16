@@ -19,13 +19,13 @@ double cbrt(double cb_rt)
 {
     return cbrt(cb_rt);
 }
- int factorial(int number)
-{
-  int iteration, fact=1;
-  for(iteration=1; iteration<=number; iteration++)
-  {
-    	fact=fact*iteration;
-        }
-  return fact;
- 
+//  int factorial(int number)
+// {
+//   int iteration, fact=1;
+//   for(iteration=1; iteration<=number; iteration++)
+//   {
+//     	fact=fact*iteration;
+//         }
+//   return fact;
+// }
 

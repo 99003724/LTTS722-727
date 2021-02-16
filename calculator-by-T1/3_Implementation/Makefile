@@ -5,8 +5,11 @@ PROJECT_NAME = Calculator
 BUILD = build
 
 # All source code files
-SRC = project_main.c\src/calculator_conversion.c\src/inbuild_functions.c\src/operations.c\
-src/calculator_operations.c
+SRC = project_main.c\
+src/calculator_conversion.c\
+src/inbuild_functions.c\
+src/operations.c\
+src/calculator_operations.c\
 
 # All test source files
 TEST_SRC = src/calculator_operations.c\

@@ -9,13 +9,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<math.h>
-
+#include<string.h>
 /**
 *  finds square of the number
 * @param[in]  sq 
 * @return Result of sq*sq
 */
-float inbuild_function(int func);
+float inbuild_functions(int func);
 
 /**
 *  finds cube of the number

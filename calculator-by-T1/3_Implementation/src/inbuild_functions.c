@@ -1,5 +1,5 @@
-#include<inbuild_function.h>
-float Inbuilt(int func)
+#include<inbuild_functions.h>
+float inbuild_functions(int func)
 {
 if(func==1)
      {   float radius,length,breadth,sideOne,sideTwo,sideThree,area,perimeter,s;
