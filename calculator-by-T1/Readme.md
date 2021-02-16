@@ -19,7 +19,7 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-99003724 |Archita Modi |Square,cube,square root,cube root,factorial | 2    | 7  |X No   |X No 
+99003724 |Archita Modi |Square,cube,square root,cube root,factorial | 2    | 7  |13   | 
 99003727 |Shivakumar |conversion from degree to radian, conversion from radian to degree | 1 | 1 |  | 
 99003722 |Aryan Verma    |In-build Function 1>Area 2> Conversion of polar to angular coordinate | 7 | 7 |  | 
 99003725 |sai kalki    |arithmetic operations Addition,substraction,multiplication,division,modulous | 1| 4 | |  |  

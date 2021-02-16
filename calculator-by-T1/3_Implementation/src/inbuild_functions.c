@@ -1,4 +1,5 @@
-float Inbuilt(int func)
+#include<inbuild_functions.h>
+float inbuild_functions(int func)
 {
 if(func==1)
      {   float radius,length,breadth,sideOne,sideTwo,sideThree,area,perimeter,s;
@@ -18,7 +19,7 @@ if(func==1)
                  {
                  printf("Radius:");
                  scanf("%f",&radius);
-                 area = PI * radius * radius;
+                 area = M_PI * radius * radius;
                  printf("%f",area);
                  return 0;
                  }
@@ -26,7 +27,7 @@ if(func==1)
                  {
                  printf("Radius:");
                  scanf("%f",&radius);
-                 perimeter=2*PI*radius;
+                 perimeter=2*M_PI*radius;
                  printf("%f",perimeter);
                  return 0;
                  }
@@ -98,7 +99,7 @@ printf("Enter angle of polar coordinate in degree (theta): \n");
 scanf("%f", &theta);
 
 /* Converting theta from degree to radian */
-theta = theta * PI/180.0;
+theta = theta * M_PI/180.0;
 
 /* Calculating cartesian coordinate x */
 x = r * cos(theta);
@@ -127,7 +128,7 @@ r = sqrt(x*x + y*y);
 theta = atan(y/x);
 
 /* Converting theta from degree to radian */
-theta = 180.0 * theta/ PI;
+theta = 180.0 * theta/ M_PI;
 
 printf("Polar coordinate is: r = %0.2f and theta = %0.2f in degree", r, theta);
 getch(); /* Holds Screen */
