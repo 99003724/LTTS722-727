@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "cmath": "c",
-        "type_traits": "c",
-        "typeinfo": "c"
-    },
-    "C_Cpp.dimInactiveRegions": false
-}
