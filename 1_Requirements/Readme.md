@@ -58,7 +58,6 @@ LL_2.1 | Square | Implemented | Archita
 LL_2.2 | Cube | Implemented | Archita
 LL_2.3 | Square root | Implemented | Archita
 LL_2.4 | Cube root | Implemented | Archita
-LL_2.5 | Factorial | Implemented | Archita
 LL_3.1 | Area of circle | Implemented | Aryan
 LL_3.2 | Area of rectangle | Implemented | Aryan
 LL_3.3 | Area of triangle | Implemented | Aryan
