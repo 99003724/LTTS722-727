@@ -4,7 +4,7 @@ Visit [Pages for Report -optional](using github.io option)
 
 Build | Cppcheck | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
- |  | | ![Contribution Check - Git Inspector](https://github.com/99003724/LTTS722-727/actions/workflows/gitinspector%20copy.yml/badge.svg)](https://github.com/99003724/LTTS722-727/actions/workflows/gitinspector%20copy.yml))
+ [![C/C++ CI](https://github.com/99003724/LTTS722-727/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/99003724/LTTS722-727/actions/workflows/c-cpp.yml) | [![Cppcheck](https://github.com/99003724/LTTS722-727/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/99003724/LTTS722-727/actions/workflows/cppcheck.yml) [![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/99003724/LTTS722-727/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/99003724/LTTS722-727/actions/workflows/CodeQuality_Dynamic.yml)| [![Unity - Unit Testing](https://github.com/99003724/LTTS722-727/actions/workflows/unity.yml/badge.svg)](https://github.com/99003724/LTTS722-727/actions/workflows/unity.yml)| [![Contribution Check - Git Inspector](https://github.com/99003724/LTTS722-727/actions/workflows/gitinspector%20copy.yml/badge.svg)](https://github.com/99003724/LTTS722-727/actions/workflows/gitinspector%20copy.yml)
 
 
 ## Folder Structure
