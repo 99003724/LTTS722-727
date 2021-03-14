@@ -9,7 +9,7 @@
 |H_03         |input taken more than 5                                       | 6,2-4      |invalid      |   invalid      |boundary based    |  
 |  H_02       |Input taken as a string for conversion| abdch |invalid input|invalid input|Scenario based |
 |  H_02       |input taken as degree|  90 |1.5708|1.5708|Scenario based    |Scenario passed|
-|  H_02       |Input taken as radian|  |3.14|180|180| Boundary based    |
+|  H_02       |Input taken as radian| 3.14 | 180 | 180 | Boundary based    |
 |  H_02       |integer taken as whole number will give output as whole number| 9  |square=81|81|Requirement based |
 |  H_02       |Integer taken as negative number will give output as negative whole number or zero| -11|cube =-1331|-1331|Scenario based    |
 |  H_02       |Input taken as boundary exceeding integer|sqrt(100000000000) |3468.7 | overflow in implicit |Boundary based    |
