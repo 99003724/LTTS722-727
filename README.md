@@ -4,7 +4,7 @@ Visit [Pages for Report -optional](using github.io option)
 
 Build | Cppcheck | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
- | ![Cppcheck](Badgelink) | ![Unity - Unit Testing](Badgelink) | ![Git Inspector](Badgelink)
+ |  | | ![Contribution Check - Git Inspector](https://github.com/99003724/LTTS722-727/actions/workflows/gitinspector%20copy.yml/badge.svg)](https://github.com/99003724/LTTS722-727/actions/workflows/gitinspector%20copy.yml))
 
 
 ## Folder Structure

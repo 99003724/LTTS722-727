@@ -18,7 +18,7 @@ src/operations.c\
 test/test_calculator_operations.c\
 unity/unity.c
 
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).exe
 
 # All include folders with header file
 INC= -Iinc\
@@ -30,7 +30,7 @@ INC= -Iinc\
 INCLUDE_LIBS =
 
 # Project Output name
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).exe
 
 # Document files
 DOCUMENTATION_OUTPUT = documentation/html
@@ -42,11 +42,11 @@ $(PROJECT_NAME):all
 .PHONY: run clean test doc all
 
 all: $(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out -lm
+	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).exe -lm
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).out
+	./$(PROJECT_OUTPUT).exe
 
 # Document the code using Doxygen
 #doc:
@@ -62,8 +62,8 @@ coverageCheck:$(BUILD)
 	./$(TEST_OUTPUT)
 	
 	
-memcheck: $(PROJECT_NAME).out
-	valgrind ./$(PROJECT_NAME).out
+memcheck: $(PROJECT_NAME).exe
+	valgrind ./$(PROJECT_NAME).exe
 
 # Remove all the built files, invoke by `make clean`
 clean:
