@@ -4,7 +4,7 @@ Visit [Pages for Report -optional](using github.io option)
 
 Build | Cppcheck | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
- [![C/C++ CI](https://github.com/99003724/LTTS722-727/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/99003724/LTTS722-727/actions/workflows/c-cpp.yml) | [![Cppcheck](https://github.com/99003724/LTTS722-727/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/99003724/LTTS722-727/actions/workflows/cppcheck.yml) [![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/99003724/LTTS722-727/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/99003724/LTTS722-727/actions/workflows/CodeQuality_Dynamic.yml)| [![Unity - Unit Testing](https://github.com/99003724/LTTS722-727/actions/workflows/unity.yml/badge.svg)](https://github.com/99003724/LTTS722-727/actions/workflows/unity.yml)| [![Contribution Check - Git Inspector](https://github.com/99003724/LTTS722-727/actions/workflows/gitinspector%20copy.yml/badge.svg)](https://github.com/99003724/LTTS722-727/actions/workflows/gitinspector%20copy.yml)
+ [![C/C++ CI](https://github.com/99003724/LTTS722-727/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/99003724/LTTS722-727/actions/workflows/c-cpp.yml) | [![Cppcheck](https://github.com/99003724/LTTS722-727/actions/workflows/cppcheck.yml/badge.svg)][![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/99003724/LTTS722-727/actions/workflows/CodeQuality_Dynamic.yml/badge.svg?branch=master)](https://github.com/99003724/LTTS722-727/actions/workflows/CodeQuality_Dynamic.yml)| [![Unity - Unit Testing](https://github.com/99003724/LTTS722-727/actions/workflows/unity.yml/badge.svg)](https://github.com/99003724/LTTS722-727/actions/workflows/unity.yml)| [![Contribution Check - Git Inspector](https://github.com/99003724/LTTS722-727/actions/workflows/gitinspector%20copy.yml/badge.svg)](https://github.com/99003724/LTTS722-727/actions/workflows/gitinspector%20copy.yml)
 
 
 ## Folder Structure
@@ -19,7 +19,7 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-99003724 |Archita Modi |Square,cube,square root,cube root | 2    | 7  |13   | 
+99003724 |Archita Modi |Square,cube,square root,cube root | 2    | 7  |18   | 18
 99003727 |Shivakumar |conversion from degree to radian, conversion from radian to degree | 1 | 1 |  | 
 99003722 |Aryan Verma    |In-build Function 1>Area 2> Conversion of polar to angular coordinate | 7 | 7 |  | 
 99003725 |sai kalki    |arithmetic operations Addition,substraction,multiplication,division,modulous | 1| 4 | |  |  
@@ -35,3 +35,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
 3. [git inspector](https://github.com/ejwa/gitinspector.git)
 4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
+
+
+## Git Inspector
+![GitScreenShot](https://user-images.githubusercontent.com/78853934/111077878-d2f65380-8518-11eb-95ce-ae42e3af858a.PNG)
