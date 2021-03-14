@@ -22,7 +22,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 99003724 |Archita Modi |Square,cube,square root,cube root | 2    | 7  |18   | 18
 99003727 |Shivakumar |conversion from degree to radian, conversion from radian to degree | 1 | 1 | 4 | 4
 99003722 |Aryan Verma    |In-build Function 1>Area  | 7 | 7 | 4 | 4 
-99003725 |sai kalki    |arithmetic operations Addition,substraction,multiplication | 1| 4 | |  |  
+99003725 |sai kalki    |arithmetic operations Addition,substraction,multiplication | 1| 4 |4 | 4 |  
 ## Challenges Faced and How Was It Overcome
 
 1. Merging code overcame by creating separate branch and merging to master.
