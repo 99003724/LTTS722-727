@@ -16,9 +16,9 @@ Reaearch on various calculators are done which are present in the market like sc
 
 # 4W&#39;s and 1&#39;H
 
-## Who:
+## Why:
 
-Students and research people.
+Simple handy calculator can speed up calculations
 
 ## What:
 
